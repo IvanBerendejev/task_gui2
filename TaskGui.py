@@ -39,6 +39,7 @@ class TaskGui:
 
         # Kuula comboboxi muutusi
         self.cmb.bind('<<ComboboxSelected>>', self.changed)
+        self.main.bind('<Return>', lambda event=None: self.calculate())
 
 
     def create_button(self):
