@@ -193,3 +193,6 @@ class TaskGui:
                 self.result.config(state="disabled")
             except ValueError:
                 messagebox.showerror('Viga, Küljed peavad olema numbrid.')
+
+    def forget_Triangle(self):
+        pass
